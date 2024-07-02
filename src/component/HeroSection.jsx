@@ -5,7 +5,7 @@ const HeroSection = () => {
     return (
         <>
 
-            <div className=' bg-gray-500 h-[80vh]'>
+            <div className=' bg-gray-500 w-full xl:h-[80vh] lg:h-[80vh] md:h-[60vh] sm:h-[50vh] h-[50vh]'>
             </div>
           
         </>
