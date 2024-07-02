@@ -25,7 +25,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='relative shadow-md shadow-gray-500 bg-slate-700 w-full h-10 flex text-white items-center justify-between py-8 '>
+            <div className=' bg-[rgba(32,32,32,0.22)] backdrop-blur-sm backdrop-saturate-100 w-full h-10 flex text-white items-center justify-between py-8 '>
                 <div className='text-3xl xl:ml-10 lg:ml-10 md:ml-10 sm:ml-6 ml-4' onClick={() => handleMenuBar()}>
                     {!menuClose ? <FaBarsStaggered className='text-4xl rotate-10 hover:rotate-180 delay-100 ease-in-out' /> : <div><CgClose className='text-4xl transition-all hover:rotate-180 delay-200 ease-in-out' /> </div>}
                 </div>

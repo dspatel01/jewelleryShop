@@ -7,7 +7,7 @@ const CategoryPage = () => {
     return (
         <>
           
-            <div className='w-full flex items-center justify-center mt-10 mb-20 '>
+            <div className=' top-[600px] w-full flex items-center justify-center mt-10 mb-20 '>
 
                 <div className='w-[90%] flex justify-around flex-wrap mx-4'>
                     <div className=''>
