@@ -30,11 +30,11 @@ const Navbar = () => {
                     {!menuClose ? <FaBarsStaggered className='text-4xl rotate-10 hover:rotate-180 delay-100 ease-in-out' /> : <div><CgClose className='text-4xl transition-all hover:rotate-180 delay-200 ease-in-out' /> </div>}
                 </div>
                 <div className='' >
-                    <h1 className='drop-shadow-2xl tracking-wider xl:text-3xl lg:text-3xl md:text-text-2xl sm:text-3xl text-xl ml-[80px] italic '>
+                    <h1 className='drop-shadow-2xl tracking-wider xl:text-3xl lg:text-3xl md:text-text-2xl sm:text-3xl text-xl ml-[80px] italic text-center'>
                         DP-Jewellery
                     </h1>
                 </div>
-                <div className='xl:text-3xl lg:text-3xl md:text-2xl sm:text-2xl text-2xl flex xl:mr-10 lg:mr-10 md:mr-10 sm:mr-6 mr-5'>
+                <div className='xl:text-3xl lg:text-3xl md:text-2xl sm:text-2xl text-3xl flex xl:mr-10 lg:mr-10 md:mr-10 sm:mr-6 mr-2'>
                     <IoSearchOutline className='cursor-pointer ' />
                     <BsHandbag className='cursor-pointer md:mx-5 sm:mx-8 mx-3' />
                     <CiUser className='cursor-pointer' />
