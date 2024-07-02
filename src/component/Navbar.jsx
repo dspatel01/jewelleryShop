@@ -25,7 +25,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className=' bg-[rgba(32,32,32,0.22)] xl:backdrop-blur-sm lg:backdrop-blur-sm md:backdrop-blur-sm backdrop-saturate-100 sm:backdrop-filter-none backdrop-filter-none  w-full h-10 flex text-white items-center justify-between py-8 '>
+            <div className='absolute bg-[rgba(32,32,32,0.86)] backdrop-blur-sm backdrop-saturate-100 w-full h-10 flex text-white items-center justify-between py-8 '>
                 <div className='text-3xl xl:ml-10 lg:ml-10 md:ml-10 sm:ml-6 ml-4' onClick={() => handleMenuBar()}>
                     {!menuClose ? <FaBarsStaggered className='text-4xl rotate-10 hover:rotate-180 delay-100 ease-in-out' /> : <div><CgClose className='text-4xl transition-all hover:rotate-180 delay-200 ease-in-out' /> </div>}
                 </div>
@@ -40,7 +40,7 @@ const Navbar = () => {
                     <CiUser className='cursor-pointer' />
                 </div>
             </div>
-            {menuClose ? <div className='z-10 absolute w-[100vw] h-[84.4vh] bg-slate-600 flex items-center justify-center text-white text-2xl'>
+            {menuClose ? <div className='z-10 absolute top-24 w-[100vw] h-[84.4vh] bg-[rgba(32,32,32,0.81)] backdrop-blur-sm backdrop-saturate-100  flex items-center justify-center text-white text-2xl'>
                 <ul className='flex items-center justify-center flex-col'>
                     <li className='mb-10 hover:text-black hover:scale-125 ease-in-out'>
                         <NavLink to="/">Home</NavLink>
