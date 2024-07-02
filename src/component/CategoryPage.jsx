@@ -43,7 +43,7 @@ const CategoryPage = () => {
                             <img src={earings} alt="" className='rounded-full object-fit' />
 
                         </div> 
-                        <p className='text-center text-lg mr-3'>Earings</p>
+                        <p className='text-center text-lg mr-3'>Bracelets</p>
                     </div>
                     <div className=''>
                         <div className='my-2 w-32 shadow-2xl h-32 rounded-full cursor-pointer'>
