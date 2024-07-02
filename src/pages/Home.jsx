@@ -15,7 +15,7 @@ const Home = () => {
 
         <div className='w-full flex items-center justify-center mt-10 mb-20 '>
 
-                <div className='w-[95%] flex justify-around flex-wrap mx-4 '>
+                <div className='w-[100%] flex justify-around flex-wrap mx-4 '>
                     <div className=''>
                         <div className=' my-2 mx-2 w-64 h-80 shadow-lg rounded-xl cursor-pointer'>
                             <img src={img} alt="" className='rounded-xl w-64 h-80' />

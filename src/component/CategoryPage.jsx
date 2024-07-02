@@ -9,7 +9,7 @@ const CategoryPage = () => {
           
             <div className='w-full flex items-center justify-center mt-10 mb-20 '>
 
-                <div className='w-[90%] flex justify-between flex-wrap mx-4'>
+                <div className='w-[90%] flex justify-around flex-wrap mx-4'>
                     <div className=''>
                         <div className='my-2 w-32 shadow-2xl h-32 rounded-full cursor-pointer'>
                             <img src={earings} alt="" className='rounded-full object-cover' />
