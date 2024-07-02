@@ -31,7 +31,7 @@ const Navbar = () => {
                 </div>
                 <div className='' >
                     <h1 className='drop-shadow-2xl tracking-wider xl:text-3xl lg:text-3xl md:text-text-2xl sm:text-3xl text-xl ml-[80px] italic text-center'>
-                        {/* DP-Jewellery */}
+                        DP-Jewellery
                     </h1>
                 </div>
                 <div className='xl:text-3xl lg:text-3xl md:text-2xl sm:text-2xl text-3xl flex xl:mr-10 lg:mr-10 md:mr-10 sm:mr-6 mr-2'>
