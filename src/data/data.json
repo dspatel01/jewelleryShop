@@ -1,0 +1,87 @@
+{
+    "category": [
+        {
+            "id": "1",
+            "name": "earring",
+            "img": "img1"
+        },
+        {
+            "id": "2",
+            "name": "Neck ware",
+            "img": "img1"
+        },
+        {
+            "id": "3",
+            "name": "bracelet",
+            "img": "img1"
+        },
+        {
+            "id": "4",
+            "name": "ring",
+            "img": "img1"
+        },
+        {
+            "id": "5",
+            "name": "nose pin",
+            "img": "img1"
+        },
+        {
+            "id": "6",
+            "name": "silver chain",
+            "img": "img1"
+        },
+        {
+            "id": "7",
+            "name": "golden chain",
+            "img": "img1"
+        }
+    ],
+    "product": [
+        {
+            "p_id": "101",
+            "p_name": "Gold Chain",
+            "p_desc": "this is description about gold chain.this is description about gold chain.this is description about gold chain",
+            "p_price": "1000",
+            "p_discount": "800",
+            "p_category": "golden chain",
+            "p_stock": "100",
+            "p_img": "img",
+            "p_images": [
+                "img1",
+                "img2",
+                "img3",
+                "img4"
+            ]
+        }
+    ],
+    "user": [
+        {
+            "u_id": "1001",
+            "username": "anuj sachan",
+            "password": "12345",
+            "email": "anuj@gmail.com"
+        },
+        {
+            "u_id": "1002",
+            "username": "dileep",
+            "password": "12345",
+            "email": "dileep@gmail.com"
+        }
+    ],
+    "order": [
+        {
+            "o_id": "0001",
+            "p_name": "Gold Chain",
+            "p_price": "1000",
+            "p_discount": "800",
+            "p_category": "golden chain",
+            "p_stock": "100",
+            "p_img": "img",
+            "o_quantity":"5",
+            "c_id":"1001",
+            "customer":"anuj sachan",
+            "address":"kanupr",
+            "status":"pending"
+        }
+    ]
+}
