@@ -8,7 +8,7 @@ const Footer = () => {
         <>
 
             <div className='w-full h-[fit-content] flex justify-around items-center flex-wrap py-20'>
-                <div className='w-64 ml-8 mb-2'>
+                <div className='xl:w-64 lg:w-64 md:w-64 sm:w-[40%] w-[40%] ml-8 mb-2'>
                     <h1 className='text-xl font-bold'> Quick Links</h1>
                     <ul className='mt-5'>
                         <li className='my-3'>
@@ -31,7 +31,7 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='w-40 mb-2'>
+                <div className='xl:w-60 lg:w-60 md:w-60 sm:[40%] w-[40%] mb-2'>
                     <h1 className='text-xl font-bold'> Our Products</h1>
                     <ul className='mt-5'>
                         <li  className='my-3'>
@@ -55,7 +55,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className='w-64 mb-20'>
+                <div className='xl:w-64 lg:w-64 md:w-64 sm:[80%] w-[80%] xl:mb-20 lg:mb-20 md:mb-20 sm:mb-5 mb-5'>
                     <h1 className='text-xl font-bold'> Contact us</h1>
                     <div className='mt-5'>
                         <p className='text-lg'>
@@ -71,7 +71,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='w-72'>
+                <div className='xl:w-72 lg:w-72 md:w-72 sm:[80%] w-[80%]'>
                     <h1 className='text-xl font-bold '> Newsletter</h1>
                   <p className='mt-5 tracking-wide'>  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, quisquam? Eos esse sequi distinctio nam?</p>
                     <div className='my-2'>

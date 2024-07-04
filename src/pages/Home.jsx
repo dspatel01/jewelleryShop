@@ -127,7 +127,7 @@ const Home = () => {
 
         <div className=" w-full h-[fit-content] flex justify-around items-center bg-[#f1f1f1]  flex-wrap">
           <div className="cursor-pointer flex justify-around items-center flex-col my-10">
-            <div className='text-6xl mb-2'>
+            <div className='text-5xl mb-2'>
               <BsTrophy />
             </div>
             <div className='text-center text-xl'>
@@ -136,7 +136,7 @@ const Home = () => {
             </div>
           </div>
           <div className="cursor-pointer flex justify-around items-center flex-col py-10">
-            <div className='text-6xl mb-2'>
+            <div className='text-5xl mb-2'>
               <BsPatchCheck />
             </div>
             <div className='text-center text-xl'>
@@ -146,7 +146,7 @@ const Home = () => {
           </div>
 
           <div className="cursor-pointer flex justify-around items-center flex-col py-10">
-            <div className='text-6xl mb-2'>
+            <div className='text-5xl mb-2'>
               <MdOutlineLocalShipping />
             </div>
             <div className='text-center text-xl'>
@@ -156,7 +156,7 @@ const Home = () => {
           </div>
 
           <div className="cursor-pointer flex justify-around items-center flex-col py-10">
-            <div className='text-6xl mb-2'>
+            <div className='text-5xl mb-2'>
               <MdOutlineSupportAgent />
 
             </div>
