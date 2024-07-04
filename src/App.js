@@ -4,6 +4,7 @@ import PageTopLine from './component/PageTopLine';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Handroom from 'react-headroom'
+import Footer from './component/Footer';
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
         </Routes>
-
+        <Footer />
       </BrowserRouter>
 
     </>
