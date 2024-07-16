@@ -5,7 +5,6 @@ import img2 from '../assets/ring1.webp'
 import img3 from '../assets/w8v79_512.webp'
 import img4 from '../assets/ring1.webp'
 
-import { FaRegStar } from "react-icons/fa";
 
 const ProductDetailsPage = () => {
 
