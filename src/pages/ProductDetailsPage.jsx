@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import img from '../assets/-473Wx593H-469138739-multi-MODEL.avif'
 // import img1 from '../assets/8202766315-500x500.webp'
 import img2 from '../assets/ring1.webp'
