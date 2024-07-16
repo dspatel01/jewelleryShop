@@ -12,14 +12,18 @@ const Navbar = () => {
 
     const [menuClose, setMenuClose] = useState(false)
     const [search, setSearch] = useState(false)
+    const [cart, setCart] = useState(false)
+    const [profile,setProfile] = useState(false)
 
     const handleMenuBar = () => {
         if (!menuClose) {
             setMenuClose(true)
             setSearch(false);
+            setCart(false);
+
         } else {
             setMenuClose(false);
-            
+
         }
     }
 
@@ -27,14 +31,40 @@ const Navbar = () => {
         if (!search) {
             setSearch(true)
             setMenuClose(false);
+            setCart(false);
+
         } else {
             setSearch(false);
-           
+
         }
     }
 
 
-    const searchItem = () =>{
+    const handleCart = () => {
+        if (!cart) {
+            setCart(true)
+            setMenuClose(false)
+            setSearch(false);
+            setProfile(false);
+        } else {
+            setCart(false);
+
+        }
+    }
+
+    const handleProfile = () => {
+        if (!profile) {
+            setProfile(true)
+            setMenuClose(false)
+            setSearch(false);
+            setCart(false);
+        } else {
+            setProfile(false);
+
+        }
+    }
+
+    const searchItem = () => {
         alert("hello")
     }
     return (
@@ -50,8 +80,22 @@ const Navbar = () => {
                 </div>
                 <div className='xl:text-3xl lg:text-3xl md:text-2xl sm:text-2xl text-3xl flex xl:mr-10 lg:mr-10 md:mr-10 sm:mr-6 mr-2'>
                     <IoSearchOutline className='cursor-pointer ' onClick={() => handleSearchBar()} />
-                    <BsHandbag className='cursor-pointer md:mx-5 sm:mx-8 mx-3' />
-                    <CiUser className='cursor-pointer' />
+                    <BsHandbag className='cursor-pointer md:mx-5 sm:mx-8 mx-3' onClick={() => handleCart()} />
+                    <CiUser className='cursor-pointer'  onClick={()=>handleProfile()}/>
+
+                    {/*------------------------------ cart start-----------------------------------*/}
+                    {cart ? <div className='w-80 min-h-80 bg-[#535353] top-16 absolute right-2'>
+                        <div className=' w-72 h-80 flex items-center justify-center font-bold text-4xl text-[rgba(0,0,0,0.80)]'>
+                        Cart is empty
+                        </div>
+                    </div> : <></>}
+                    {/*------------------------------ cart end-----------------------------------*/}
+
+                    {profile ? <div className='w-80 min-h-80 bg-[#535353] top-16 absolute right-2'>
+                        <div className=' w-72 h-80 flex items-center justify-center font-bold text-4xl text-[rgba(0,0,0,0.80)]'>
+                        profile
+                        </div>
+                    </div> : <></>}
                 </div>
             </div>
             {menuClose ? <div className='z-10 absolute top-24 w-[100%] h-[84.4vh] bg-[rgba(32,32,32,0.81)] backdrop-blur-sm backdrop-saturate-100  flex items-center justify-center text-white text-2xl'>
@@ -81,11 +125,14 @@ const Navbar = () => {
 
 
 
+
+
+
             {search ? <div className='z-100 absolute left-0 top-24 w-[100%] h-[84.4vh] bg-[rgba(80,79,79,0.73)] backdrop-blur-sm backdrop-saturate-100  flex items-center justify-center text-white text-2xl'>
-                <input type="text" 
-                className='text-white w-[40%] h-14 mb-12 bg-[transparent] rounded-l-full backdrop-blur-sm backdrop-saturate-100 outline-none shadow-2xl shadow-black text-center  border border-r-[transparent] ' 
-                  placeholder='Search products '
-                  />
+                <input type="text"
+                    className='text-white w-[40%] h-14 mb-12 bg-[transparent] rounded-l-full backdrop-blur-sm backdrop-saturate-100 outline-none shadow-2xl shadow-black text-center  border border-r-[transparent] '
+                    placeholder='Search products '
+                />
                 <button onClick={searchItem} className='w-[10%] h-14 mb-12 bg-[rgba(49,48,48,0.88)] rounded-r-full backdrop-blur-sm backdrop-saturate-100 shadow-black outline-none shadow-2xl text-center ' >Search</button>
             </div> :
                 <> </>
