@@ -2,9 +2,9 @@ import React from 'react'
 import HeroSection from '../component/HeroSection'
 import CategoryPage from '../component/CategoryPage'
 //import earings from '../assets/61LTJSjq18L._AC_UY300_.jpg'
-import ring1 from '../assets/ring1.webp'
+// import ring1 from '../assets/ring1.webp'
 import neckless from '../assets/-473Wx593H-469138739-multi-MODEL.avif'
-import ring2 from '../assets/w8v79_512.webp'
+// import ring2 from '../assets/w8v79_512.webp'
 import TestimonialSlider from '../component/slider/TestmonialSlider'
 import { BsPatchCheck } from "react-icons/bs";
 import { BsTrophy } from "react-icons/bs";

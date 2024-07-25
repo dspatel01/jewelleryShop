@@ -2,7 +2,6 @@ import React from 'react'
 import data from '../data/data.json'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import neckless from '../assets/-473Wx593H-469138739-multi-MODEL.avif'
-import { FaRegStar } from "react-icons/fa";
 
 const FilteredItems = () => {
 
