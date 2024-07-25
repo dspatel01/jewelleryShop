@@ -1,5 +1,5 @@
 import React from 'react';
-import image1 from '../../assets/ring1.webp'
+// import image1 from '../../assets/ring1.webp'
 import banner1 from '../../assets/banner1.jpg'
 import './banner.css'
 
