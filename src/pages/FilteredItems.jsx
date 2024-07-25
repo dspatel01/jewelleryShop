@@ -20,32 +20,26 @@ const FilteredItems = () => {
     return (
         <>
             <div className='mt-28'><Link className='w-28  ml-8 bg-black text-white text-center py-2 px-6 text-2xl rounded-lg' to='/'>Back</Link></div>
-            <div className=' w-[100%] flex  justify-around flex-wrap'>
+            <div className='w-full flex justify-around items-center flex-wrap mb-2'>
                 {
                     newData.map((i, index) => {
                         return (
-
-                            <div className='relative xl:w-72 lg:w-72 md:w-[100%] sm:mx-0 h-[350px] w-[100%] shadow-lg rounded-xl cursor-pointer bg-red-50 my-5' onClick={() => handleSingleItem(i.p_id)} >
-
-                                <img src={neckless} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                                <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                                <div className=' w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                                    <h1 className='ml-5 text-2xl font-bold tracking-wide'> {i.p_name}</h1>
-                                    <div className='flex ml-5 text-xl'>
-                                        <div><span className='font-bold tracking-wide'>Price: </span>{i.p_price}</div>
-                                        <div className='line-through ml-9'>{i.p_discount}</div>
-
-                                    </div>
-                                    <div className='w-full flex mt-1 items-start ml-5 text-lg '>
-                                        <FaRegStar className='mr-2 text-sm text-yellow-600' />
-                                        <FaRegStar className='mr-2 text-sm text-yellow-600' />
-                                        <FaRegStar className='mr-2 text-sm text-yellow-600' />
-                                        <FaRegStar className='mr-2 text-sm text-yellow-600' />
-                                        <FaRegStar className='mr-5 text-sm text-yellow-600' />
+                                <div className='relative xl:w-72 lg:w-72 md:w-60 sm:w-40 w-40 xl:h-80 lg:h-80 md:h-80 sm:h-64 h-64  rounded-lg bg-[#f7f7f7] my-4 cursor-pointer' onClick={() => handleSingleItem(i.p_id)}>
+                                    <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
+                                    <img className='rounded-t-lg w-full xl:h-[235px] lg:h-[235px] md:h-[235px] sm:h-[180px] h-[180px]' src={neckless} alt="" />
+                                    <div className='mx-2'>
+                                        <h1>{i.p_name}</h1>
+                                        <div className='flex justify-between'>
+                                            <div>Price: ₹{i.p_price}</div>
+                                            <div className='line-through'> ₹:{i.p_discount}</div>
+                                        </div>
+                                        <div className='mb-1 flex justify-center items-center  bg-green-800 px-2 w-[fit-content]'>
+                                            <div className='text-yellow-500 text-xl'>&#9733; </div>
+                                            <div className='text-yellow-500 tracking-wide ml-1'>2.5</div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
+                            
                         )
                     })
                 }   </div>

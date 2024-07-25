@@ -53,9 +53,9 @@ const ProductDetailsPage = () => {
 
             <div className="flex mt-5 items-center justify-between flex-wrap">
                     <div className=" flex justify-center items-center sm:w-[fit-content] w-[fit-content] rounded-md ">
-                      <button className='text-2xl font-bold bg-blue-700 py-0 px-4 text-white mr-4' onClick={() => incresItem <= 1 ? " " : setIncresItem(incresItem - 1)}>-</button>
+                      <button className='text-2xl font-bold bg-black py-0 px-4 text-white mr-4' onClick={() => incresItem <= 1 ? " " : setIncresItem(incresItem - 1)}>-</button>
                      <div className='text-xl'> {incresItem}</div>
-                      <button className='text-2xl font-bold bg-blue-700 py-0 px-4 text-white ml-4' onClick={() => incresItem === 6 ? setIncresItem(incresItem) : setIncresItem(incresItem + 1)}>+</button>
+                      <button className='text-2xl font-bold bg-black py-0 px-4 text-white ml-4' onClick={() => incresItem === 6 ? setIncresItem(incresItem) : setIncresItem(incresItem + 1)}>+</button>
                     </div>
                     <div className='w-40 bg-black text-white text-center py-4 sm:mr-5 mr-5'>  <button >Add To Cart</button></div>
                     <div className='xl:w-40 lg:w-40 md:w-40 sm:w-full w-full bg-black text-white text-center py-4 mr-5 xl:mt-5 lg:mt-4 md:mt-4 sm:mt-8 mt-8 mb-5'> <button >Buy Now</button></div>

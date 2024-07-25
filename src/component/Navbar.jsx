@@ -27,6 +27,10 @@ const Navbar = () => {
         }
     }
 
+    const closeMobilemenu = () =>{
+        setMenuClose(false);
+    }
+
     const handleSearchBar = () => {
         if (!search) {
             setSearch(true)
@@ -100,7 +104,7 @@ const Navbar = () => {
             </div>
             {menuClose ? <div className='z-10 absolute top-24 w-[100%] h-[84.4vh] bg-[rgba(32,32,32,0.81)] backdrop-blur-sm backdrop-saturate-100  flex items-center justify-center text-white text-2xl'>
                 <ul className='flex items-center justify-center flex-col'>
-                    <li className='mb-10 hover:text-black hover:scale-125 ease-in-out'>
+                    <li className='mb-10 hover:text-black hover:scale-125 ease-in-out' onClick={closeMobilemenu}>
                         <NavLink to="/">Home</NavLink>
                     </li>
                     <li className='mb-10 hover:text-black hover:scale-125 ease-in-out'>

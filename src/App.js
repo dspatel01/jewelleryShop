@@ -1,4 +1,6 @@
 import './App.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import Navbar from './component/Navbar';
 import PageTopLine from './component/PageTopLine';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

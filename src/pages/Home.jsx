@@ -12,6 +12,7 @@ import { MdOutlineLocalShipping } from "react-icons/md";
 import { MdOutlineSupportAgent } from "react-icons/md";
 
 import TopRatedProduct from '../component/toprated/TopRatedProduct'
+import Banner1 from '../component/banner/Banner1'
 
 
 
@@ -23,349 +24,82 @@ const Home = () => {
         <h1 className='text-center text-4xl mt-10 '>Our Category</h1>
         <CategoryPage />
 
-        <h1 className='text-center text-4xl my-10 '>Top Rated Products</h1>
+        <h1 className='text-center text-4xl my-5 '>Top Rated Products</h1>
 
         <TopRatedProduct />
 
 
-
-        <div className='w-full flex items-center justify-center mt-10 mb-16 '>
-                <div className='w-[100%] flex justify-around flex-wrap mx-4 '>
-
-                    <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]'  >
-
-                        <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]' >
-
-                            <img src={neckless} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                            <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                            <div className='xl:px-5 lg:px-5 md:px-5 sm:px-1 px-1 w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                                <h1 className=' tracking-wide'>Neckless</h1>
-                                <div className='flex  text-md'>
-                                    <div className='tracking-wide'>Price:₹ 1500</div>
-                                    <div className='line-through text-gray-100 ml-3'>₹:2000</div>
-
-                                </div>
-                                <div className='mt-1 flex justify-center items-center  bg-green-800 px-2 w-[fit-content]'>
-                                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                                    <div className='tracking-wide ml-1'>3.5</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]'  >
-
-                        <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]' >
-                            <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                            <img src={ring2} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                            <div className='xl:px-5 lg:px-5 md:px-5 sm:px-1 px-1 w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                                <h1 className=' tracking-wide'>Neckless</h1>
-                                <div className='flex  text-md'>
-                                    <div className='tracking-wide'>Price:₹ 1500</div>
-                                    <div className='line-through text-gray-100 ml-3'>₹:2000</div>
-
-                                </div>
-                                <div className='mt-1 flex justify-center items-center  bg-green-800 px-2 w-[fit-content]'>
-                                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                                    <div className='tracking-wide ml-1'>3.5</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]'  >
-
-                        <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]' >
-                            <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                            <img src={ring1} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                            <div className='xl:px-5 lg:px-5 md:px-5 sm:px-1 px-1 w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                                <h1 className=' tracking-wide'>Neckless</h1>
-                                <div className='flex  text-md'>
-                                    <div className='tracking-wide'>Price:₹ 1500</div>
-                                    <div className='line-through text-gray-100 ml-3'>₹:2000</div>
-
-                                </div>
-                                <div className='mt-1 flex justify-center items-center  bg-green-800 px-2 w-[fit-content]'>
-                                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                                    <div className='tracking-wide ml-1'>3.5</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]'  >
-
-                        <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]' >
-                            <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                            <img src={neckless} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                            <div className='xl:px-5 lg:px-5 md:px-5 sm:px-1 px-1 w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                                <h1 className=' tracking-wide'>Neckless</h1>
-                                <div className='flex  text-md'>
-                                    <div className='tracking-wide'>Price:₹ 1500</div>
-                                    <div className='line-through text-gray-100 ml-3'>₹:2000</div>
-
-                                </div>
-                                <div className='mt-1 flex justify-center items-center  bg-green-800 px-2 w-[fit-content]'>
-                                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                                    <div className='tracking-wide ml-1'>3.5</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]'  >
-
-                        <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]' >
-                            <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                            <img src={ring2} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                            <div className='xl:px-5 lg:px-5 md:px-5 sm:px-1 px-1 w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                                <h1 className=' tracking-wide'>Neckless</h1>
-                                <div className='flex  text-md'>
-                                    <div className='tracking-wide'>Price:₹ 1500</div>
-                                    <div className='line-through text-gray-100 ml-3'>₹:2000</div>
-
-                                </div>
-                                <div className='mt-1 flex justify-center items-center  bg-green-800 px-2 w-[fit-content]'>
-                                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                                    <div className='tracking-wide ml-1'>3.5</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]'  >
-
-                        <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]' >
-                            <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                            <img src={neckless} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                            <div className='xl:px-5 lg:px-5 md:px-5 sm:px-1 px-1 w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                                <h1 className=' tracking-wide'>Neckless</h1>
-                                <div className='flex  text-md'>
-                                    <div className='tracking-wide'>Price:₹ 1500</div>
-                                    <div className='line-through text-gray-100 ml-3'>₹:2000</div>
-
-                                </div>
-                                <div className='mt-1 flex justify-center items-center  bg-green-800 px-2 w-[fit-content]'>
-                                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                                    <div className='tracking-wide ml-1'>3.5</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]'  >
-
-                        <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]' >
-                            <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                            <img src={ring1} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                            <div className='xl:px-5 lg:px-5 md:px-5 sm:px-1 px-1 w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                                <h1 className=' tracking-wide'>Neckless</h1>
-                                <div className='flex  text-md'>
-                                    <div className='tracking-wide'>Price:₹ 1500</div>
-                                    <div className='line-through text-gray-100 ml-3'>₹:2000</div>
-
-                                </div>
-                                <div className='mt-1 flex justify-center items-center  bg-green-800 px-2 w-[fit-content]'>
-                                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                                    <div className='tracking-wide ml-1'>3.5</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]'  >
-
-                        <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[220px] h-[220px]' >
-                            <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                            <img src={ring2} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                            <div className='xl:px-5 lg:px-5 md:px-5 sm:px-1 px-1 w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                                <h1 className=' tracking-wide'>Neckless</h1>
-                                <div className='flex  text-md'>
-                                    <div className='tracking-wide'>Price:₹ 1500</div>
-                                    <div className='line-through text-gray-100 ml-3'>₹:2000</div>
-
-                                </div>
-                                <div className='mt-1 flex justify-center items-center  bg-green-800 px-2 w-[fit-content]'>
-                                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                                    <div className='tracking-wide ml-1'>3.5</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <button className='bg-black text-white mt-8 px-12 py-3 text-xl rounded-lg'>See more</button>
-                </div>
-            </div>
-
-
-{/* 
-        <div className='w-full flex items-center justify-center mt-10 mb-16 '>
-          <div className='w-[100%] flex justify-around flex-wrap mx-4 '>
-
-            <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'  >
-
-              <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'>
-
-                <img src={neckless} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                <div className=' w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                  <h1 className='ml-5 tracking-wide'>Neckless</h1>
-                  <div className='flex ml-5 text-md'>
-                    <div><span className='tracking-wide'>Price:₹ </span>1500</div>
-                    <div className='line-through ml-9 text-gray-600'>₹: 2000</div>
-
-                  </div>
-                  <div className='mt-2 flex justify-center items-center ml-5  bg-green-800 px-2 w-[fit-content]'>
-                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                    <div className='tracking-wide ml-1'>3.5</div>
-                  </div>
-                </div>
+        <Banner1 />
+        <h1 className='text-center text-4xl mt-20 '>Latest Products</h1>
+        <div className='w-full flex justify-around items-center flex-wrap my-10 '>
+          <div className='relative xl:w-72 lg:w-72 md:w-60 sm:w-40 w-40 xl:h-80 lg:h-80 md:h-80 sm:h-64 h-64  rounded-lg bg-[#f7f7f7] my-4 cursor-pointer '>
+            <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
+            <img className='rounded-t-lg w-full xl:h-[235px] lg:h-[235px] md:h-[235px] sm:h-[180px] h-[180px]' src={neckless} alt="" />
+            <div className='mx-2'>
+              <h1>Neckless</h1>
+              <div className='flex justify-between'>
+                <div>Price: ₹1000</div>
+                <div className='line-through'> ₹1500</div>
+              </div>
+              <div className='mb-1 flex justify-center items-center  bg-green-800 px-2 w-[fit-content]'>
+                <div className='text-yellow-500 text-xl'>&#9733; </div>
+                <div className='text-yellow-500 tracking-wide ml-1'>3.5</div>
               </div>
             </div>
-
-            <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'  >
-
-              <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]' >
-                <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                <img src={ring2} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                <div className=' w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                  <h1 className='ml-5 tracking-wide'>Neckless</h1>
-                  <div className='flex ml-5 text-md'>
-                    <div><span className='tracking-wide'>Price:₹ </span>1500</div>
-                    <div className='line-through ml-9 text-gray-400'>₹: 2000</div>
-
-                  </div>
-                  <div className='mt-2 flex justify-center items-center ml-5  bg-green-800 px-2 w-[fit-content]'>
-                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                    <div className='tracking-wide ml-1'>3.5</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'  >
-
-              <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'>
-                <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                <img src={ring1} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                <div className=' w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                  <h1 className='ml-5 tracking-wide'>Neckless</h1>
-                  <div className='flex ml-5 text-md'>
-                    <div><span className='tracking-wide'>Price:₹ </span>1500</div>
-                    <div className='line-through ml-9 text-gray-600'>₹: 2000</div>
-
-                  </div>
-                  <div className='mt-2 flex justify-center items-center ml-5  bg-green-800 px-2 w-[fit-content]'>
-                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                    <div className='tracking-wide ml-1'>3.5</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'  >
-
-              <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'>
-                <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                <img src={neckless} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                <div className=' w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                  <h1 className='ml-5 tracking-wide'>Neckless</h1>
-                  <div className='flex ml-5 text-md'>
-                    <div><span className='tracking-wide'>Price:₹ </span>1500</div>
-                    <div className='line-through ml-9 text-gray-600'>₹: 2000</div>
-
-                  </div>
-                  <div className='mt-2 flex justify-center items-center ml-5  bg-green-800 px-2 w-[fit-content]'>
-                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                    <div className='tracking-wide ml-1'>3.5</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'  >
-
-              <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'>
-                <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                <img src={ring2} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                <div className=' w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                  <h1 className='ml-5 tracking-wide'>Neckless</h1>
-                  <div className='flex ml-5 text-md'>
-                    <div><span className='tracking-wide'>Price:₹ </span>1500</div>
-                    <div className='line-through ml-9 text-gray-600'>₹: 2000</div>
-
-                  </div>
-                  <div className='mt-2 flex justify-center items-center ml-5  bg-green-800 px-2 w-[fit-content]'>
-                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                    <div className='tracking-wide ml-1'>3.5</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'  >
-
-              <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'>
-                <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                <img src={neckless} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                <div className=' w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                  <h1 className='ml-5 tracking-wide'>Neckless</h1>
-                  <div className='flex ml-5 text-md'>
-                    <div><span className='tracking-wide'>Price:₹ </span>1500</div>
-                    <div className='line-through ml-9 text-gray-600'>₹: 2000</div>
-
-                  </div>
-                  <div className='mt-2 flex justify-center items-center ml-5  bg-green-800 px-2 w-[fit-content]'>
-                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                    <div className='tracking-wide ml-1'>3.5</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'  >
-
-              <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'>
-                <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                <img src={ring1} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                <div className=' w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                  <h1 className='ml-5 tracking-wide'>Neckless</h1>
-                  <div className='flex ml-5 text-md'>
-                    <div><span className='tracking-wide'>Price:₹ </span>1500</div>
-                    <div className='line-through ml-9 text-gray-600'>₹: 2000</div>
-
-                  </div>
-                  <div className='mt-2 flex justify-center items-center ml-5  bg-green-800 px-2 w-[fit-content]'>
-                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                    <div className='tracking-wide ml-1'>3.5</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className='relative bg-red-800 xl:w-80 lg:w-80 md:w-[45%] sm:w-[48%] w-[48%]  rounded-xl my-2 mx-0  xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'  >
-
-              <div className='relative xl:w-80 lg:w-80 md:w-[100%] sm:mx-0  w-[100%]  shadow-lg rounded-xl cursor-pointer bg-red-50 xl:h-[350px] lg:h-[350px] mg:h-[350px] sm:h-[250px] h-[250px]'>
-                <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
-                <img src={ring2} alt="" className=' w-[100%] h-[100%] rounded-xl ' />
-                <div className=' w-full absolute bottom-0  bg-[rgba(0,0,0,0.8)] text-white rounded-b-xl py-2'>
-                  <h1 className='ml-5 tracking-wide'>Neckless</h1>
-                  <div className='flex ml-5 text-md'>
-                    <div><span className='tracking-wide'>Price:₹ </span>1500</div>
-                    <div className='line-through ml-9 text-gray-600'>₹: 2000</div>
-
-                  </div>
-                  <div className='mt-2 flex justify-center items-center ml-5  bg-green-800 px-2 w-[fit-content]'>
-                    <div className='text-yellow-500 text-xl'>&#9733; </div>
-                    <div className='tracking-wide ml-1'>3.5</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <button className='bg-black text-white mt-8 px-12 py-3 text-xl rounded-lg'>See more</button>
           </div>
-        </div> */}
+
+          <div className='relative xl:w-72 lg:w-72 md:w-60 sm:w-40 w-40 xl:h-80 lg:h-80 md:h-80 sm:h-64 h-64 bg-[#f7f7f7] rounded-lg my-4 cursor-pointer '>
+            <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
+            <img className='rounded-t-lg w-full xl:h-[235px] lg:h-[235px] md:h-[235px] sm:h-[180px] h-[180px]' src={neckless} alt="" />
+            <div className='mx-2'>
+              <h1>Neckless</h1>
+              <div className='flex justify-between'>
+                <div>Price: ₹1000</div>
+                <div className='line-through'> ₹1500</div>
+              </div>
+              <div className='mb-1 flex justify-center items-center  bg-green-800 px-2 w-[fit-content]'>
+                <div className='text-yellow-500 text-xl'>&#9733; </div>
+                <div className='text-yellow-500 tracking-wide ml-1'>3.5</div>
+              </div>
+            </div>
+          </div>
+
+          <div className='relative xl:w-72 lg:w-72 md:w-60 sm:w-40 w-40 xl:h-80 lg:h-80 md:h-80 sm:h-64 h-64 bg-[#f7f7f7] rounded-lg my-4 cursor-pointer '>
+            <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
+            <img className='rounded-t-lg w-full xl:h-[235px] lg:h-[235px] md:h-[235px] sm:h-[180px] h-[180px]' src={neckless} alt="" />
+            <div className='mx-2'>
+              <h1>Neckless</h1>
+              <div className='flex justify-between'>
+                <div>Price: ₹1000</div>
+                <div className='line-through'> ₹1500</div>
+              </div>
+              <div className='mb-1 flex justify-center items-center  bg-green-800 px-2 w-[fit-content]'>
+                <div className='text-yellow-500 text-xl'>&#9733; </div>
+                <div className='text-yellow-500 tracking-wide ml-1'>3.5</div>
+              </div>
+            </div>
+          </div>
+
+          <div className='relative xl:w-72 lg:w-72 md:w-60 sm:w-40 w-40 xl:h-80 lg:h-80 md:h-80 sm:h-64 h-64 bg-[#f7f7f7] rounded-lg my-4 cursor-pointer '>
+            <div className='bg-black w-10 h-10 text-white rounded-full absolute top-2 right-4  flex justify-center items-center'>20%</div>
+            <img className='rounded-t-lg w-full xl:h-[235px] lg:h-[235px] md:h-[235px] sm:h-[180px] h-[180px]' src={neckless} alt="" />
+            <div className='mx-2'>
+              <h1>Neckless</h1>
+              <div className='flex justify-between'>
+                <div>Price: ₹1000</div>
+                <div className='line-through'> ₹1500</div>
+              </div>
+              <div className='mb-1 flex justify-center items-center  bg-green-800 px-2 w-[fit-content]'>
+                <div className='text-yellow-500 text-xl'>&#9733; </div>
+                <div className='text-yellow-500 tracking-wide ml-1'>3.5</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
 
         {/* testimonial */}
 
