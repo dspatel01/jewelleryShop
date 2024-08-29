@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 // import { useNavigate } from 'react-router-dom'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -10,7 +10,7 @@ import catg3 from '../assets/category/c_img-1724833029309.png'
 import catg4 from '../assets/category/c_img-1724833347192.png'
 import catg5 from '../assets/category/c_img-1724833546898.png'
 import catg6 from '../assets/category/c_img-1724833866006.png'
-import catg7 from '../assets/category/c_img-1724834119458.png'
+
 
 const CategoryPage = () => {
   // const [category, setCategory] = useState([])

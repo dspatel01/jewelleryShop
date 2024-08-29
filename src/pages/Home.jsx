@@ -5,10 +5,6 @@ import Banner1 from '../component/banner/Banner1'
 import LatestProduct from '../component/LatestProduct'
 import HeroSlider from '../component/heroCarousel/HeroSlider'
 
-import AOS from 'aos'
-import "aos/dist/aos.css"
-
-
 
 const Home = () => {
   useEffect(() => {
