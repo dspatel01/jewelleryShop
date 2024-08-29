@@ -1,7 +1,5 @@
 import React from 'react'
 import { FaLongArrowAltRight } from "react-icons/fa";
-import { FaRegPlayCircle } from "react-icons/fa";
-import { FaPauseCircle } from "react-icons/fa";
 import './hero.css'
 
 const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) => {
@@ -23,10 +21,6 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
                     <li onClick={() => setHeroCount(2)} className={heroCount === 2 ? "hero-dot orange" : "hero-dot"}></li>
                 </ul>
 
-                {/* <div className='hero-play'>
-                    <div onClick={() => setPlayStatus(!playStatus)} >{playStatus ? <FaPauseCircle className='text-white text-[30px]' /> : <FaRegPlayCircle className='text-white text-[30px]' />}</div>
-                    <p>See the Video</p>
-                </div> */}
             </div>
         </div>
     )
