@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import App_Crouser from './App_Carousel';
+import AppCrouser from './App_Carousel';
 import Hero from '../hero/Hero';
 
 const HeroSlider = () => {
@@ -21,7 +21,7 @@ const HeroSlider = () => {
 
     return (
         <div>
-            <App_Crouser playStatus={playStatus} heroCount={heroCount} />
+            <AppCrouser playStatus={playStatus} heroCount={heroCount} />
             <Hero
                 setPlayStatus={setPlayStatus}
                 heroData={heroData[heroCount]}

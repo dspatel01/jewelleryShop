@@ -5,7 +5,7 @@ import image1 from '../../assets/heroImages/cover-img-11.png'
 import image2 from '../../assets/heroImages/cover-img-12.png'
 import image3 from '../../assets/heroImages/cover-img-14.png'
 
-const App_Crouser = ({playStatus,heroCount}) => {
+const AppCrouser = ({playStatus,heroCount}) => {
 
   if(playStatus){
     return(
@@ -26,4 +26,4 @@ const App_Crouser = ({playStatus,heroCount}) => {
   }
 }
 
-export default App_Crouser
+export default AppCrouser
