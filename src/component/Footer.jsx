@@ -2,33 +2,34 @@ import React from 'react'
 import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { PiWhatsappLogoThin } from "react-icons/pi";
+import logo from '../assets/AMSBIG.COM LOGO1.png'
 
 const Footer = () => {
     return (
         <>
 
-            <div className='w-full h-[fit-content] flex justify-around items-center flex-wrap py-20'>
+            <div className='w-full h-[fit-content] flex justify-around items-start flex-wrap py-20'>
                 <div className='xl:w-64 lg:w-64 md:w-64 sm:w-[40%] w-[40%] ml-8 mb-2'>
                     <h1 className='text-xl font-bold'> Quick Links</h1>
                     <ul className='mt-5'>
                         <li className='my-3'>
                             <a href="/">About Us</a>
                         </li>
-                        <li className='my-3'>
+                        {/* <li className='my-3'>
                             <a href="/"> Terms and Conditions</a>
                         </li>
                         <li className='my-3'>
                             <a href="/">  Privacy Policy</a>
-                        </li>
+                        </li> */}
                         <li className='my-3'>
                             <a href="/">Contact Us</a>
                         </li>
-                        <li className='my-3'>
+                        {/* <li className='my-3'>
                             <a href="/"> Return/Refund Policy</a>
                         </li>
                         <li className='my-3'>
                             <a href="/">Terms of Service</a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
                 <div className='xl:w-60 lg:w-60 md:w-60 sm:[40%] w-[40%] mb-2'>
@@ -43,9 +44,7 @@ const Footer = () => {
                         <li  className='my-3'>
                             <a href="/">Rings</a>
                         </li>
-                        <li  className='my-3'>
-                            <a href="/">Necklace</a>
-                        </li>
+                        
                         <li  className='my-3'>
                             <a href="/">Chains</a>
                         </li>
@@ -59,24 +58,27 @@ const Footer = () => {
                     <h1 className='text-xl font-bold'> Contact us</h1>
                     <div className='mt-5'>
                         <p className='text-lg'>
-                            <span className='font-bold tracking-wide'>Address: </span>ABC Complex,
-                            Noida Sector-62,Uttar Predesh 201301
+                            <span className='font-bold tracking-wide'>Address: </span>28/540,
+                            Govind Nagar, Auriya - 206122
                         </p>
                         <p>
-                            <span className='font-bold text-lg'>Contact: +91-123467890</span>
+                            <span className='font-bold text-lg'>Contact: +91-9045008789</span>
                         </p>
                         <p>
-                            <span className='font-bold text-lg'>Email:abc@gmail.com</span>
+                            <span className='font-bold text-lg'>Email:info@amsbig.com</span>
                         </p>
                     </div>
                 </div>
 
                 <div className='xl:w-72 lg:w-72 md:w-72 sm:[80%] w-[80%]'>
+                <div className='text-xl font-bold text-center'> 
+                    <img src={logo} alt="" />
+                </div>
                     <h1 className='text-xl font-bold '> Newsletter</h1>
-                  <p className='mt-5 tracking-wide'>  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, quisquam? Eos esse sequi distinctio nam?</p>
+                  {/* <p className='mt-5 tracking-wide'>  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, quisquam? Eos esse sequi distinctio nam?</p> */}
                     <div className='my-2'>
-                        <input className='border outline-none pl-2 px-6 py-2' type="text" name="" id="" />
-                        <button className='bg-black text-[#fff] px-6 py-2'>join</button>
+                        <input className='border outline-none pl-2 px-6 py-2' placeholder='abc@text.com' type="text" name="" id="" />
+                        <button className='bg-black w-[79%] text-[#fff] px-6 py-1 mt-1'>join</button>
                     </div>
                     <div className='flex mt-6'>
                         <FaFacebookF className='text-blue-600 text-3xl' />
@@ -86,7 +88,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-black text-center py-4 text-white tracking-wide'>Copyright © All Right Reserved || ds.Patel</div>
+            <div className='bg-black text-center py-4 text-white tracking-wide'>Copyright © All Right Reserved </div>
         </>
     )
 }

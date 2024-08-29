@@ -39,27 +39,34 @@
     "product": [
         {
             "p_id": "101",
+            "p_code":"1024585",
             "p_name": "Silver Plated earings",
             "p_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae voluptatum sit in omnis porro culpa maxime doloribus. Enim dolorem laboriosam quae accusamus sunt fugit tenetur dolores et, earum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque?",
             "p_price": "1000",
-            "p_discount": "800",
-            "p_category": "earing",
+            "p_discount": "10",
+            "p_category": "Earing",
             "p_stock": "100",
-            "p_img": "img",
+            "p_img": "image/4877010.jpg",
             "p_images": [
                 "img1",
                 "img2",
                 "img3",
                 "img4"
+            ],
+            "p_specification":[
+                "7.16",
+                "4.1",
+                "3.5"
             ]
         },
         {
             "p_id": "102",
+            "p_code":"1024585",
             "p_name": "Gold neckless",
             "p_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae voluptatum sit in omnis porro culpa maxime doloribus. Enim dolorem laboriosam quae accusamus sunt fugit tenetur dolores et, earum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque?",
             "p_price": "1000",
-            "p_discount": "800",
-            "p_category": "neckless",
+            "p_discount": "35",
+            "p_category": "Neckless",
             "p_stock": "100",
             "p_img": "img",
             "p_images": [
@@ -67,14 +74,20 @@
                 "img2",
                 "img3",
                 "img4"
+            ],
+            "p_specification":[
+                "7.16",
+                "4.1",
+                "3.5"
             ]
         },
         {
             "p_id": "103",
+            "p_code":"1024585",
             "p_name": "Gold Ring",
             "p_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae voluptatum sit in omnis porro culpa maxime doloribus. Enim dolorem laboriosam quae accusamus sunt fugit tenetur dolores et, earum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque?",
             "p_price": "1000",
-            "p_discount": "800",
+            "p_discount": "40",
             "p_category": "Ring",
             "p_stock": "100",
             "p_img": "img",
@@ -83,15 +96,21 @@
                 "img2",
                 "img3",
                 "img4"
+            ],
+            "p_specification":[
+                "7.16",
+                "4.1",
+                "3.5"
             ]
         },
         {
             "p_id": "104",
+            "p_code":"1024585",
             "p_name": "Gold earing",
             "p_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae voluptatum sit in omnis porro culpa maxime doloribus. Enim dolorem laboriosam quae accusamus sunt fugit tenetur dolores et, earum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque?",
             "p_price": "1000",
-            "p_discount": "800",
-            "p_category": "earing",
+            "p_discount": "20",
+            "p_category": "Earing",
             "p_stock": "100",
             "p_img": "img",
             "p_images": [
@@ -99,15 +118,21 @@
                 "img2",
                 "img3",
                 "img4"
+            ],
+            "p_specification":[
+                "7.16",
+                "4.1",
+                "3.5"
             ]
         },
         {
             "p_id": "105",
+            "p_code":"1024585",
             "p_name": "Gold neckless",
             "p_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae voluptatum sit in omnis porro culpa maxime doloribus. Enim dolorem laboriosam quae accusamus sunt fugit tenetur dolores et, earum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque?",
             "p_price": "1000",
-            "p_discount": "800",
-            "p_category": "neckless",
+            "p_discount": "10",
+            "p_category": "Neckless",
             "p_stock": "100",
             "p_img": "img",
             "p_images": [
@@ -115,14 +140,20 @@
                 "img2",
                 "img3",
                 "img4"
+            ],
+            "p_specification":[
+                "7.16",
+                "4.1",
+                "3.5"
             ]
         },
         {
             "p_id": "106",
+            "p_code":"1024585",
             "p_name": "Gold Ring",
             "p_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae voluptatum sit in omnis porro culpa maxime doloribus. Enim dolorem laboriosam quae accusamus sunt fugit tenetur dolores et, earum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque?",
             "p_price": "500000",
-            "p_discount": "800",
+            "p_discount": "10",
             "p_category": "Ring",
             "p_stock": "100",
             "p_img": "img",
@@ -131,15 +162,21 @@
                 "img2",
                 "img3",
                 "img4"
+            ],
+            "p_specification":[
+                "7.16",
+                "4.1",
+                "3.5"
             ]
         },
         {
             "p_id": "107",
+            "p_code":"1024585",
             "p_name": "Gold round shap earing",
             "p_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae voluptatum sit in omnis porro culpa maxime doloribus. Enim dolorem laboriosam quae accusamus sunt fugit tenetur dolores et, earum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque?",
             "p_price": "1000",
-            "p_discount": "800",
-            "p_category": "earing",
+            "p_discount": "10",
+            "p_category": "Earing",
             "p_stock": "100",
             "p_img": "img",
             "p_images": [
@@ -147,15 +184,21 @@
                 "img2",
                 "img3",
                 "img4"
+            ],
+            "p_specification":[
+                "7.16",
+                "4.1",
+                "3.5"
             ]
         },
         {
             "p_id": "108",
+            "p_code":"1024585",
             "p_name": "Golden earnig",
             "p_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae voluptatum sit in omnis porro culpa maxime doloribus. Enim dolorem laboriosam quae accusamus sunt fugit tenetur dolores et, earum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque?",
             "p_price": "1000",
-            "p_discount": "800",
-            "p_category": "earing",
+            "p_discount": "10",
+            "p_category": "Earing",
             "p_stock": "100",
             "p_img": "img",
             "p_images": [
@@ -163,72 +206,14 @@
                 "img2",
                 "img3",
                 "img4"
-            ]
-        },
-        {
-            "p_id": "109",
-            "p_name": "Gold Earings",
-            "p_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae voluptatum sit in omnis porro culpa maxime doloribus. Enim dolorem laboriosam quae accusamus sunt fugit tenetur dolores et, earum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque?",
-            "p_price": "1000",
-            "p_discount": "800",
-            "p_category": "earing",
-            "p_stock": "100",
-            "p_img": "img",
-            "p_images": [
-                "img1",
-                "img2",
-                "img3",
-                "img4"
-            ]
-        },
-        {
-            "p_id": "110",
-            "p_name": "Gold Ring",
-            "p_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae voluptatum sit in omnis porro culpa maxime doloribus. Enim dolorem laboriosam quae accusamus sunt fugit tenetur dolores et, earum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque?",
-            "p_price": "1000",
-            "p_discount": "800",
-            "p_category": "Ring",
-            "p_stock": "100",
-            "p_img": "img",
-            "p_images": [
-                "img1",
-                "img2",
-                "img3",
-                "img4"
-            ]
-        },
-        {
-            "p_id": "111",
-            "p_name": "Gold Ring",
-            "p_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae voluptatum sit in omnis porro culpa maxime doloribus. Enim dolorem laboriosam quae accusamus sunt fugit tenetur dolores et, earum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque?",
-            "p_price": "1000",
-            "p_discount": "800",
-            "p_category": "Ring",
-            "p_stock": "100",
-            "p_img": "img",
-            "p_images": [
-                "img1",
-                "img2",
-                "img3",
-                "img4"
-            ]
-        },
-        {
-            "p_id": "112",
-            "p_name": "Gold Ring",
-            "p_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae voluptatum sit in omnis porro culpa maxime doloribus. Enim dolorem laboriosam quae accusamus sunt fugit tenetur dolores et, earum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque?",
-            "p_price": "1000",
-            "p_discount": "800",
-            "p_category": "Ring",
-            "p_stock": "100",
-            "p_img": "img",
-            "p_images": [
-                "img1",
-                "img2",
-                "img3",
-                "img4"
+            ],
+            "p_specification":[
+                "7.16",
+                "4.1",
+                "3.5"
             ]
         }
+       
     ],
     "user": [
         {
@@ -246,10 +231,11 @@
     ],
     "order": [
         {
+            "p_code":"1024585",
             "o_id": "0001",
             "p_name": "Gold Chain",
             "p_price": "1000",
-            "p_discount": "800",
+            "p_discount": "10",
             "p_category": "golden chain",
             "p_stock": "100",
             "p_img": "img",

@@ -1,0 +1,14 @@
+.whatsupAnimation{
+    animation: movingIcon 3s infinite;
+}
+@keyframes movingIcon {
+    0%{
+        top:85vh;
+    }
+    50%{
+        top:80vh;
+    }
+    100%{
+        top:85vh;
+    }
+}

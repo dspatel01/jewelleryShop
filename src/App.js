@@ -1,32 +1,25 @@
+import Navbar from './component/Navbar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Footer from './component/Footer';
+import WhatsUp from './component/WhatsUp';
+import Contact from './pages/Contact';
 import './App.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import Navbar from './component/Navbar';
-import PageTopLine from './component/PageTopLine';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Handroom from 'react-headroom'
-import Footer from './component/Footer';
-import ProductDetailsPage from './pages/ProductDetailsPage';
-import FilteredItems from './pages/FilteredItems';
-import ProductDetailsPages from './pages/ProductDetailsPages';
 
 function App() {
-
 
   return (
     <>
       <BrowserRouter>
+        <Navbar />
+        <WhatsUp />
 
-        <Handroom>
-          <PageTopLine />
-          <Navbar />
-        </Handroom>
-        <Routes>
+        <Routes >
           <Route path='/' element={<Home />} />
-          <Route path='/product/detailsPage/:name' element={<ProductDetailsPage />} />
-          <Route path='/product/detailsPages/:id' element={<ProductDetailsPages />} />
-          <Route path='/:name' element={<FilteredItems />} />
+          <Route exact path='/Contact' element={<Contact />} />
+          <Route exact path='/get-deails-of-product' element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>

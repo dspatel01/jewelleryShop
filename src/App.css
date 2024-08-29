@@ -1,0 +1,9 @@
+.whatsupAnimation{
+    animation: whatsUp infinite ;
+}
+
+@keyframes whatsUp {
+    0% {top: 0px;}
+  100% {top: 10px;}
+  0% {top: 0px;}
+}
