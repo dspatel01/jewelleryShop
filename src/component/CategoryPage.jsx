@@ -47,7 +47,7 @@ const CategoryPage = () => {
   };
   return (
     <>
-      <div className=' w-full relative top-0 flex items-center justify-center mb-20 '>
+      <div className=' w-full relative top-0 flex items-center justify-center mb-20 bg-gray-50'>
         <div className='w-[88%] flex flex-col justify-center '>
           <Slider {...settings} className='flex justify-center items-center flex-col'>
             <div >
