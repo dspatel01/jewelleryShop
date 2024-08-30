@@ -64,7 +64,7 @@ const Navbar = () => {
                             </div>
                         </div> : <></>
                     } */}
-                    <div className='text-[5vmin] xl:ml-10 lg:ml-10 md:ml-10 sm:ml-6 ml-4 mr-4 ' onClick={() => handleMenuBar()}>
+                    <div className='text-[6vmin] xl:ml-10 lg:ml-10 md:ml-10 sm:ml-6 ml-4 mr-4 ' onClick={() => handleMenuBar()}>
                         {!menuClose ? <FaBarsStaggered className=' rotate-10 hover:rotate-180 delay-100 ease-in-out' /> : <div><CgClose className=' transition-all hover:rotate-180 delay-200 ease-in-out' /> </div>}
                     </div>
                 </div>
