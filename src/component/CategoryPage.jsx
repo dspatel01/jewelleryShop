@@ -5,10 +5,9 @@ import "slick-carousel/slick/slick-theme.css";
 import catg1 from '../assets/category/c_img-1724827179629.jpg'
 import catg2 from '../assets/category/c_img-1724832544845.avif'
 import catg3 from '../assets/category/c_img-1724833029309.png'
-import catg4 from '../assets/category/c_img-1724833347192.png'
-import catg5 from '../assets/category/c_img-1724833546898.png'
-import catg6 from '../assets/category/c_img-1724833866006.png'
-
+import catg4 from '../assets/category/anklet.webp'
+import catg5 from '../assets/category/c_img-1724833866006.png'
+import catg6 from '../assets/category/c_img-1724834119458.png'
 
 const CategoryPage = () => {
 
@@ -90,7 +89,9 @@ const CategoryPage = () => {
             </div>
           </Slider>
         </div>
+       
       </div>
+      
     </>
   )
 }
