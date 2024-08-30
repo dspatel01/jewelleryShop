@@ -15,7 +15,7 @@ const InfoPage = () => {
         <div className='text-center pt-10 text-[6vmin] font-bold textShadow'>For more Enquiry</div>
         <div className='mx-auto w-80 h-[3px] bg-black pt-0 text-[6vmin] font-bold textShadow'></div>
 
-        <div className='mt-10 flex items-start justify-center'>
+        <div className='mt-10 flex items-start justify-center flex-wrap'>
           <div>
             <img src={logo} className='w-80 h-60' alt="logo" />
           </div>
