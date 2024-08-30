@@ -1,13 +1,6 @@
-// import React, { useEffect, useState } from 'react'
-// import React, { useEffect, useState } from 'react'
 import { FaBarsStaggered } from "react-icons/fa6";
-// import { CiUser } from "react-icons/ci";
-// import { BsHandbag } from "react-icons/bs";
-// import { IoSearchOutline } from "react-icons/io5";
 import { CgClose } from "react-icons/cg";
-// import { useNavigate } from 'react-router-dom';
 import { Link, NavLink} from 'react-router-dom';
-// import axios from 'axios'
 import logo from '../assets/AMSBIG.COM LOGO1.png'
 import { useState } from "react";
 
@@ -18,11 +11,7 @@ const Navbar = () => {
 
     const [menuClose, setMenuClose] = useState(false)
     const [search, setSearch] = useState(false)
-    // const [userDatails, setUserDetails] = useState('')
-    // const [profilePage, setProfilePage] = useState(false)
     const [searchProduct, setSearchProduct] = useState('')
-
-    // const navigate = useNavigate()
 
     const handleMenuBar = () => {
         if (!menuClose) {
@@ -37,84 +26,16 @@ const Navbar = () => {
         setMenuClose(false);
     }
 
-    // const handleSearchBar = () => {
-    //     if (!search) {
-    //         setSearch(true)
-    //         setMenuClose(false);
-    //     } else {
-    //         setSearch(false);
-
-    //     }
-    // }
-
-    // const handleCart = () => {
-    //     navigate('/addToCart')
-    // }
-
-    // const handleProfile = () => {
-    //     navigate('/login')
-    // }
-
-    // const handleProfileModel = () => {
-    //     !profilePage ? setProfilePage(true) : setProfilePage(false)
-    // }
-
     const searchItem = () => {
-
         alert(searchProduct)
     }
 
-
-
-    // const checkToken = () => {
-    //     if (localStorage.getItem('token') === "undefined") {
-    //         return navigate('/login')
-    //     }
-    // }
-    // useEffect(() => {
-    //     checkToken()
-    // })
-
-    // const getProfile = () => {
-    //     const token = localStorage.getItem('token');
-
-    //     const config = {
-    //         headers: {
-    //             Authorization: `Bearer ${token}`,
-    //         },
-    //     };
-    //     axios.get('http://localhost:8080/user/userProfile', config)
-    //         .then(response => {
-    //             setUserDetails(response.data)
-    //         })
-    //         .catch(error => {
-    //             console.log(error)
-    //         });
-    // }
-
-    // useEffect(() => {
-
-    //     getProfile()
-
-    // }, [])
-
-    // const handleLogout = () => {
-    //     localStorage.removeItem('token');
-    //     setProfilePage(false)
-    //     setUserDetails('')
-    // }
-
-
-    // console.log(userDatails)
-    // useEffect(()=>{
-    //     handleLogout()
-    // },[handleLogout])
 
     return (
         <>
             <div className='sticky top-0 right-0 left-0 bg-[rgb(17,17,17)] backdrop-blur-sm backdrop-saturate-100 w-[100%] h-10 flex text-white items-center justify-between py-8 z-10'>
 
-                <div className='ml-[3%] text-center'>
+                <div className='ml-[4%] text-center'>
                     <Link to='/'><img src={logo} alt={logo} className="w-[100px] h-12" /></Link>
                 </div>
 
@@ -143,8 +64,8 @@ const Navbar = () => {
                             </div>
                         </div> : <></>
                     } */}
-                    <div className='text-3xl xl:ml-10 lg:ml-10 md:ml-10 sm:ml-6 ml-4' onClick={() => handleMenuBar()}>
-                        {!menuClose ? <FaBarsStaggered className='text-4xl rotate-10 hover:rotate-180 delay-100 ease-in-out' /> : <div><CgClose className='text-4xl transition-all hover:rotate-180 delay-200 ease-in-out' /> </div>}
+                    <div className='text-[5vmin] xl:ml-10 lg:ml-10 md:ml-10 sm:ml-6 ml-4 mr-4 ' onClick={() => handleMenuBar()}>
+                        {!menuClose ? <FaBarsStaggered className=' rotate-10 hover:rotate-180 delay-100 ease-in-out' /> : <div><CgClose className=' transition-all hover:rotate-180 delay-200 ease-in-out' /> </div>}
                     </div>
                 </div>
             </div>

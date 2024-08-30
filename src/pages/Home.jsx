@@ -17,9 +17,9 @@ const Home = () => {
       <div className='w-full'>
         <HeroSlider />
 
-        <h1 className='text-center text-4xl my-10 '>Our Category</h1>
+        <h1 className='text-center text-[6vmin] mb-5 mt-[-30px] '>Our Category</h1>
         <CategoryPage />
-        <h1 className='text-center text-4xl my-5 '>Top Rated Products</h1>
+        <h1 className='text-center my-5 text-[6vmin]'>Top Rated Products</h1>
 
         <TopRatedProduct />
 
