@@ -2,12 +2,6 @@
     height: fit-content;
     width: 98%;
     margin: auto;
-    /* top:0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: none;
-    position: sticky; */
     object-fit: cover;
     z-index: -1;
     margin-top: 10px;
@@ -26,43 +20,3 @@
 .fade-in{
     animation: fadeIn 500ms ease-in;
 }
-/* @media screen and (min-width:901px) and (max-width:1023px) {
-    .background {
-        height: 40vh;
-        width: 98%;
-        margin: auto;
-        margin-top: 10px;
-        border-radius: 15px;
-    }
-}
-@media screen and (min-width:767px) and (max-width:900px) {
-    .background {
-        height: 40vh;
-        width: 98%;
-        margin: auto;
-    
-        margin-top: 10px;
-        border-radius: 15px;
-    }
-}
-@media screen and (max-width:768px) {
-    .background {
-        height: 30vh;
-        width: 98%;
-        margin: auto;
-    
-        margin-top: 10px;
-        border-radius: 15px;
-    }
-}
-
-@media screen and (min-width:350px) and (max-width:767px) {
-    .background {
-        height: 20vh;
-        width: 98%;
-        margin: auto;
-    
-        margin-top: 10px;
-        border-radius: 15px;
-    }
-} */
