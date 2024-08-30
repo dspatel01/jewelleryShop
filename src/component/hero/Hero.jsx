@@ -14,7 +14,7 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
                 <div className='xl:text-lg lg:text-md md:text-lg sm:text-sm text-[8px] bg-orange-500 p-1 rounded-full text-white'><FaLongArrowAltRight /></div>
             </div>
 
-            <div className="absolute xl:top-[520px] lg:top-[410px] md:top-[350px] sm:top-[280px] top-[220px] xl:left-32 lg:left-28 md:left-28 sm:left-20 left-16">
+            <div className="hero-play absolute xl:top-[520px] lg:top-[410px] md:top-[350px] sm:top-[280px] top-[220px] xl:left-32 lg:left-28 md:left-28 sm:left-20 left-16">
                 <ul className='hero-dots '>
                     <li onClick={() => setHeroCount(0)} className={heroCount === 0 ? "hero-dot orange" : "hero-dot"}></li>
                     <li onClick={() => setHeroCount(1)} className={heroCount === 1 ? "hero-dot orange" : "hero-dot"}></li>
