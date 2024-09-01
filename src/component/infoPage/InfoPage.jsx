@@ -10,10 +10,10 @@ const InfoPage = () => {
 
   return (
     <>
-      <div className='w-full h-[85vh] mt-3 bg-gray-200'>
+      <div className='w-full h-fit mt-2 pb-10 bg-gray-200'>
 
-        <div className='text-center pt-10 text-[6vmax] font-bold textShadow'>For more Enquiry</div>
-        <div className='mx-auto w-80 h-[3px] bg-black pt-0 text-[6vmin] font-bold textShadow'></div>
+        <div className='text-center pt-10 text-[6vmin] font-bold textShadow underline'>For more Enquiry</div>
+       
 
         <div className='mt-10 flex items-start justify-center flex-wrap'>
           <div>
